@@ -7,7 +7,7 @@ The CoHa model is structured with three integral components:
 
 1) **Uncertainty Modeling (UM):** This component employs the Subjective Logic theory to model the unreliability degree of generated responses, which enables the model to assess the extent of penalty for improper answers.
 
-2) **Diffusion-based Contrastive Constraint (DCC):** Designed to assign reasonable restraint to mitigate hallucinations according to uncertainty.
+2) **Diffusion-based Contrastive Constraint (DCC):** Designed to assign reasonable restraint to mitigate hallucinations according to uncertainty.
 
 3) **Interactive Refinement Module (IRM):** Focused on adding more fine-grained
 cues observed from the first-person view.
@@ -24,7 +24,7 @@ cues observed from the first-person view.
 
 ## Motivation
 ![Motivation](fig/intro_00.png)
-Compared with the widely used third-person view datasets on the Internet, the egocentric datasets are recorded in the first-person view. However, demonstrated by Egothink, existing Ego-GQA methods often treat video understanding from first-person and third-person views equivalently, neglecting the critical role of human-centric reasoning in egocentric contexts. This oversight leads to the model being more susceptible to hallucinations during the understanding of egocentric videos, whereby the model inaccurately focuses on objects or actions being interacted with by the subject.
+Compared with the widely used third-person view datasets on the Internet, the egocentric datasets are recorded in the first-person view. However, demonstrated by Egothink, existing Ego-GQA methods often treat video understanding from first-person and third-person views equivalently, neglecting the critical role of human-centric reasoning in egocentric contexts. This oversight leads to the model being more susceptible to hallucinations during the understanding of egocentric videos, whereby the model inaccurately focuses on objects or actions being interacted with by the subject.
 
 ## Results
 ![Result](fig/result.png)
