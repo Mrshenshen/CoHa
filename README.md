@@ -24,6 +24,7 @@ cues observed from the first-person view.
 
 ## Motivation
 ![Motivation](fig/intro_00.png)
+
 Compared with the widely used third-person view datasets on the Internet, the egocentric datasets are recorded in the first-person view. However, demonstrated by Egothink, existing Ego-GQA methods often treat video understanding from first-person and third-person views equivalently, neglecting the critical role of human-centric reasoning in egocentric contexts. This oversight leads to the model being more susceptible to hallucinations during the understanding of egocentric videos, whereby the model inaccurately focuses on objects or actions being interacted with by the subject.
 
 ## Results
